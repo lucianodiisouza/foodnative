@@ -1,6 +1,7 @@
 import React, {useContext, useState} from 'react';
-import {SafeAreaView, ScrollView} from 'react-native';
+import {SafeAreaView, ScrollView, Text, View} from 'react-native';
 import {Appbar, List, IconButton, Button, Snackbar} from 'react-native-paper';
+import styled from 'styled-components/native';
 import {CartContext} from '../../../providers/CartProvider';
 import {NumberService} from '../../../../data/services/NumberService';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
@@ -10,6 +11,13 @@ import {
   cartRemoveProduct,
 } from '../../../../data/actions/CartActions';
 import {ApiService} from '../../../../data/services/ApiService';
+import CartEmptyAnimation from '../../../components/CartEmptyAnimation';
+
+const WithoutProduct = styled(View)`
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+`;
 
 export default function CartView(props) {
   const [isMessageVisible, setIsMessageVisible] = useState(false);
@@ -40,6 +48,12 @@ export default function CartView(props) {
       </Appbar.Header>
       <ScrollView>
         <List.Section>
+          {products.length === 0 && (
+            <WithoutProduct>
+              <CartEmptyAnimation />
+              <Text>Não há nada por aqui...</Text>
+            </WithoutProduct>
+          )}
           {products.map((item, index) => (
             <List.Item
               key={index}
