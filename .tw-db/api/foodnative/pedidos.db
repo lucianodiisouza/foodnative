@@ -1,0 +1,6 @@
+{"pedido":[{"product":{"id":"2i3hDh2oY9tTn6jg","name":"Batatas","price":5.2},"note":"","selectedOptions":["Sal"]}],"_id":"PPEYONG7D6JIwxEx"}
+{"pedido":[{"product":{"id":"2i3hDh2oY9tTn6jg","name":"Batatas","price":5.2},"note":"","selectedOptions":[]},{"product":{"id":"2i3hDh2oY9tTn6jg","name":"Batatas","price":5.2},"note":"","selectedOptions":[]}],"_id":"GbbRSMEYljAMdHtH"}
+{"pedido":[{"product":{"id":"2i3hDh2oY9tTn6jg","name":"Batatas","price":5.2},"note":"","selectedOptions":[]},{"product":{"id":"YuoeAjFwwSU2LXTU","name":"Hambúrguer","price":12},"note":"","selectedOptions":["Queijo","Alface"]}],"_id":"HkxGmvqBvdDBsYCi"}
+{"pedido":[{"product":{"id":"2i3hDh2oY9tTn6jg","name":"Batatas","price":5.2},"note":"Test message observation","selectedOptions":["Molho especial","Mostarda","Sal"]}],"_id":"RdRqGDDWSTn0kylh"}
+{"pedido":[{"product":{"id":"YuoeAjFwwSU2LXTU","name":"Hambúrguer","price":12},"note":"","selectedOptions":["Cebola","Picles"]}],"_id":"8yX8TtCJ7pb2bqF9"}
+{"pedido":[{"product":{"id":"TW2hNck2HAVLN4su","name":"Pizza a moda da Casa","price":29.8},"note":"","selectedOptions":["Mozzarella","Peperonni","Cebola"]}],"_id":"Y9G2Ighw2JE5cWyq"}
