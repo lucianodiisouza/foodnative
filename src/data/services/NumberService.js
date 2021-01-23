@@ -1,3 +1,5 @@
+import numeral from 'numeral';
+
 export const NumberService = {
   currency(value) {
     const formatter = new Intl.NumberFormat('pt-BR', {
@@ -5,5 +7,11 @@ export const NumberService = {
       currency: 'BRL',
     });
     return formatter.format(value);
+  },
+};
+
+export const NumeralService = {
+  currency(value) {
+    return `R$ ${numeral(value).format('0,0.00')}`;
   },
 };

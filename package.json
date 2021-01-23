@@ -13,11 +13,13 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-native-fontawesome": "^0.2.6",
+    "numeral": "^2.0.6",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-paper": "^4.7.1",
     "react-native-svg": "^12.1.0",
-    "react-native-vector-icons": "^8.0.0"
+    "react-native-vector-icons": "^8.0.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
